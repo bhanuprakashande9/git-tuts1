@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <style>#Emailid1{border-style: double;} </style>
+    <style>#Emailid1{background-color: #FA8072;opacity: 0.7;} </style>
+    <style>#Check1{border-style: dotted;}</style>
+    <style> .ch1{border:5px solid brown; 
+    width: 50%; 
+    height: 50px;}</style>
+    <style>.ch1{font-family:cursive; text-align: center;
+    text-transform: uppercase;
+    text-shadow: 3px brown;
+    text-decoration: underline;
+    text-decoration-color: blue;}</style>
+    
+    <!--<style>    .ch1{margin:20px 10px;}     </style>-->
+    <style>    .ch1{margin:20px 10px yellow;}     </style>
+    <style>.ch1{padding: 10px;}</style>
+
+    <style>#Total_chblock1{background-color:yellowgreen;}</style>
+    
+</head>
+<body>
+    <h1 class="ch1">Survey Form</h1>
+    <label for="name">Name</label><br>
+    <input type="text" name="name">
+    <br><hr>
+    <label for="Phone">Phone_Number</label><br>
+    <input type="number" name="Phone">
+     <br><hr>
+    <label for="Email_id" id="Emailid1">Email_id</label><br>
+    <input type="email" name="Emailid"> 
+    <br><hr>
+    <label for="age">Age</label><br>
+    <input type="datetime" name="age">
+    <br><hr>
+    <div id="Total_chblock1">
+    <label for="checkbox" id="Check1">Skill</label><br>
+    <input type="checkbox" name="Skill">
+    </div>
+    <br><hr>
+    <label for="number">Percentage</label><br>
+    <input type="number" min="1" max="100">
+    <br><hr>
+    <label for="doy">Year of passed out</label><br>
+    <input type="date" name="Year">
+    <br><hr>
+    <label for="name">If completed click submmit</label><br>
+    <input type="button" value="submmit">
+
+</body>
+</html>
