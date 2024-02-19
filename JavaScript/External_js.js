@@ -1,0 +1,1 @@
+alert("Teststing JS click ok to contonue")
