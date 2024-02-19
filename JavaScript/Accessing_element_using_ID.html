@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2 id="jsid"> Hello world get element by id</h2>
+    <h3 class="js_class"> this is example of class</h3>
+  <p class="js_class"> this is paragraph</p>
+  <h2> testing with HI</h2>
+  <h2> testing with hello  </h2>
+  <h2> testing with welcome </h2>
+
+
+    <script>
+      const a=document.getElementById("jsid");
+      alert(a);
+
+      const b=document.getElementsByClassName("js_class");
+      alert(b[1]);
+    
+      const c=document.getElementsByTagName("h2");
+      alert(c[2]);
+    </script>
+
+
+
+</body>
+</html>
